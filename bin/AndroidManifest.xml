@@ -30,6 +30,12 @@
             android:name=".Ee"
             android:label="@string/title_activity_ee" >
         </activity>
+
+        <service android:name="com.example.recevier.AutoUpdateService" >
+        </service>
+
+        <receiver android:name="com.example.recevier.AutoUpdateReceiver" >
+        </receiver>
     </application>
 
 </manifest>
